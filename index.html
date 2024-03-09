@@ -36,14 +36,17 @@
                     <div class="search-city">
                         <i class="fas fa-location-dot" aria-hidden="true"></i>
                         <input type="text" title="tapez votre destination" placeholder="Marseille, France">
-                        <button type="submit" title="Rechercher par destination"><span>Rechercher</span></button>
+                        <button type="submit" title="Rechercher par destination">
+                            <!-- <i class="fas fa-search"></i> -->
+                            <span>Rechercher</span></button>
                     </div>
                 </form>
                 <div class="filters-container">
                     <h2>Filtres</h2>
                     <div class="filters-selection">
                         <button type="button" title="destinations économiques" class="filters-button no-break">
-                            <i class="fas fa-money-bill-alt" aria-hidden="true"></i>
+                            <!--no break pour eviter le break sur trèspetit écran-->
+                            <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
                             <span>Economique</span>
                         </button>
                         <button type="button" title="destinations familiales" class="filters-button no-break">
@@ -63,7 +66,7 @@
 
                 <div class="info-results">
                     <div class="circle">
-                        <img src="./images/logo/i-icon.svg" alt="Icon d'information">
+                        <img src="./images/logo/i-icon.svg" alt="Icon d'information"></img>
                     </div>
                     <p>Plus de 500 logements sont disponible dans cette ville</p>
                 </div>
@@ -71,10 +74,10 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements" id="hebergements">
                     <div>
-                        <h2 class="hebergements-title section-title">Hébergements à Marseille</h2>
+                        <h1 class="hebergements-title section-title">Hébergements à Marseille</h1>
                     </div>
                     <div class="hebergements-row ">
-                        <a href="#">
+                        <a href="#" title="hôtel du port">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="image chambre de l'hôtel du port">
                                 <div class="card-content">
