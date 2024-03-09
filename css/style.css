@@ -135,6 +135,7 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  gap: 2rem;
 }
 /****** Search button***********/
 /* .search-form {
@@ -146,7 +147,7 @@ header {
 .search-city {
   display: flex;
   /* padding: 10px; */
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .search-city .fa-location-dot {
@@ -196,7 +197,7 @@ header {
   max-width: 100%;
   flex-direction: row;
   align-items: center;
-  margin: 2rem 0 1rem;
+  /* margin: 2rem 0 1rem; */
 }
 .filters-selection {
   display: flex;
