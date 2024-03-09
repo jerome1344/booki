@@ -97,7 +97,7 @@ header {
   justify-content: space-between;
 }
 
-.header-logo img {
+.header-logo a img {
   max-width: 120px;
   /* width: 100%; */
   align-items: center;
@@ -550,9 +550,7 @@ header {
     display: flex;
     justify-content: center;
   }
-  .header-logo img {
-    width: 30%;
-  }
+
   .header-menu {
     width: 100%;
   }
