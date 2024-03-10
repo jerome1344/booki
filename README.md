@@ -6,7 +6,8 @@ L'objectif de ce projet est l'intégration d'une maquette en HTML et CSS, d'un s
 
 ![maquette desktop Booki](./maquette/Large%20Desktop.png)
 
-Les liens github :
 
-[lien du site](https://jerome1344.github.io/booki/)
-[lien du repo](https://github.com/jerome1344/booki)
+Le lien du site : [Booki](https://jerome1344.github.io/booki/)
+
+
+
