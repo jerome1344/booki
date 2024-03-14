@@ -48,7 +48,7 @@ h3 {
   margin: 0;
   font-size: 22px;
 }
-
+/* point clé */
 .card {
   background-color: white;
   border-radius: 20px;
@@ -111,6 +111,8 @@ header {
   display: flex;
   align-items: flex-start; /*Pour avoir le menu collé au top*/
 }
+
+/* point clé  */
 .header-menu a {
   margin-left: 3rem;
   font-size: 1rem;
@@ -170,7 +172,7 @@ header {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
+/* point clé */
 .search-city input::placeholder {
   color: black;
   font-size: 1.125rem;
@@ -233,6 +235,7 @@ header {
 .filters-button i {
   color: var(--main-color);
 }
+/* point clé */
 .filters-button:hover {
   background-color: var(--filter-bg-color);
 }
@@ -290,6 +293,7 @@ header {
   justify-content: space-between;
   gap: 1.5rem;
 }
+/* point clé */
 .hebergements-row a {
   width: calc(33% - 20px);
   display: flex;
@@ -453,6 +457,7 @@ header {
   padding: 1.2rem;
   background-color: var(--main-bg-color);
 }
+/* point clé */
 .footer-section {
   width: calc(33% - 15px);
 }
@@ -469,6 +474,7 @@ header {
   justify-content: space-between;
   padding-top: 0.8rem;
 }
+/* point clé */
 .footer-container a:hover {
   color: var(--main-color);
 }
@@ -504,7 +510,7 @@ header {
     height: 100%;
     margin-top: 50px;
   }
-
+/* point clé */
   .populaires-cards {
     display: flex;
     justify-content: space-between;
@@ -562,6 +568,7 @@ header {
     border-bottom: #d9d9d9 solid 2px;
     padding-bottom: 15px;
   }
+  /* point clé */
   .header-menu a:hover {
     color: var(--main-color);
     border-bottom: #0065fc solid 2px;
@@ -583,6 +590,7 @@ header {
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.4));
     margin-left: -1rem; /*Positionné au dessus de l'input pour ne pas voir de border*/
   }
+  /* point clé */
   .search-city button::before {
     content: "\f002"; /* Permet d'afficher la loupe avec l'unicode de la loupe  */
     font-family: "Font Awesome 5 Free";
@@ -619,6 +627,7 @@ header {
     flex-grow: 1;
     row-gap: 1.5rem;
   }
+  /* point clé */
   .filters-button {
     width: calc(50% - 5px);
     height: 50px;
